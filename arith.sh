@@ -1,4 +1,4 @@
-#!/bin/bash -x
+
 declare -A dict
 k=0
 echo "enter 3 numbers"
