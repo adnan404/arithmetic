@@ -1,3 +1,4 @@
+#!/bin/bash -x
 declare -A dict
 k=0
 echo "enter 3 numbers"
@@ -21,6 +22,7 @@ do
         ((k++))
 done
 
+
 for((k=0;k<=$(( ${#arr[@]}-1 ));k++))
 do
 for((j=$(( k+1 ));j<=${#arr[@]}-1;j++))
@@ -33,3 +35,4 @@ do
         fi
 done
 done
+
